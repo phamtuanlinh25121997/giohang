@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* phần đầu */
+.nav{
+    background-color: rgb(14, 177, 241);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    height: 50px;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+    gap: 30px;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    margin-left: 25px;
+}
+/* phần giữa */
+.header {
+    margin: 25px;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+.td-img{
+    width: 220px;
+}
+.ti-search{
+    font-size: 35px;
+}
+.googleSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.containerSearch {
+    width: 100px;
+    text-align: center;
+}
+.Search {
+    border: 1px solid black;
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px
+}
+input.input-header {
+    width: 500px;
+    height: 35px;
+    border: none;
+}
+section.container.main-form {
+    margin: 40px;
+}
+ /* đăng nhập */
+ .modal-contents {
+    background-color: white;
+    color: black;
+}
+.dangnhap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+button.login {
+    border-radius: 5px;
+    background-color: blue;
+    color: aliceblue;
+    width: 100px;
+    height: 35px;
+}

@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*phần nav*/
+.nav-nav{
+    background-color:burlywood ;
+    padding-bottom: 40px; 
+    padding-top: 40px;
+}
+/* ảnh đại diện */
+img{
+    width: 125px;
+    height: 100px;
+    border-radius: 5px;
+}
+img:hover{
+    transform: scale(1.5);
+    transition: .0.5;
+}
+.col-md-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* danh mục sản phẩm */
+.div-mennu {
+    display: flex;
+}
+button.button-menu {
+    width: 100px;
+    border: none;
+    background-color: burlywood;
+
+}
+button.button-mennuIcon {
+    background-color: burlywood;
+    border: none;
+    padding-top: 10px;
+}
+i.ti-align-justify {
+    font-size: 30px;
+}
+
+/* tìm kiếm */
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-Search {
+    border: 1px solid black;
+    width: 350px;
+    height: 42px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+input.input-Search {
+    width: 300px;
+    border: none;
+    outline: none;
+
+}
+button.button-search {
+    border: none;
+}
+
+/* đăng nhập đăng ký */
+.position-relative {
+    margin-right: 10px;
+}
+.img-ads{
+    height: 380px;
+    width: 200px;
+    
+}
+.img-bt{
+    width: 250px;
+    height: 150px;
+}
+.dangnhap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-contents {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+.log-out{
+    border: 0.5px solid silver;
+    width: 330px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.div-nopass{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 330px;
+    margin: 10px;
+}
+.mobile:before {
+    
+    font-size: 28px;
+}
+.ti-themify-favicon{
+    font-size: 28px;
+}
+.communicate{   
+        width: 270px;
+        border: none;  
+}
+h3{
+    padding: 25px;
+}
+.login{
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(52, 124, 239);
+}
+.row2{
+    margin: auto;
+}
+
+/* phần thân  */
+#div-by{
+    display: flex;
+    border: 1px solid orangered;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-delete{
+    border: none;
+}
+.div-delete{
+    display: flex;
+    gap: 20px;
+}
+.button-buy{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+.div-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.col-md-8 {
+    padding-top: 30px;
+}
+.div-ship {
+    padding: 45px;
+}
+
+
+/* phần footer */
+#bot-div-hr{
+    border: 1px solid red;
+    width: 100%;
+}
+
+.style-a {
+    text-decoration: none;
+    color: black;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+#footer{
+    margin-top: 80px;
+    background-color: rgb(245, 86, 29);
+}

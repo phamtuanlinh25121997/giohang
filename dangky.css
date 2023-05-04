@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.position-relative {
+    margin-right: 10px;
+}
+.img-ads{
+    height: 380px;
+    width: 200px;
+    
+}
+.img-bt{
+    width: 250px;
+    height: 150px;
+    margin-top: 65px;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid silver;
+    width: 600px;
+    height: 600px;
+    margin:30px auto;
+    background-color: rgb(139, 240, 134);
+    opacity: 0.7;
+
+
+}
+.log-out{
+    /* border: 0.5px solid silver; */
+    width: 330px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.mobile:before { 
+    font-size: 28px;
+}
+.ti-themify-favicon{
+    font-size: 28px;
+}
+.communicate{   
+        width: 270px;
+        border: none;  
+        outline: none;
+
+}
+h3{
+    padding: 25px;
+}
+.login{
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(52, 124, 239);
+    width: 100px;
+    height: 35px;
+}
+.ti-user{
+    font-size: 28px;
+}
+body{
+    background-image: url(./anh/ảnh-mèo.jpg);
+}
+h3{
+    color: rgba(244, 81, 11, 0.904);
+}
+form {
+    text-align: center;
+}
